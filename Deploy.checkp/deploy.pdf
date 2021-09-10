@@ -1,0 +1,28 @@
+Déployer son application en production : les bonnes méthodes à connaître.
+
+Après mon article sur Ngrok, dans lequel je conseillais
+ d’éviter le plus possible de travailler directement sur les 
+ serveurs de productions, je me suis rendu compte que je n'avais
+  pas vraiment traite le sujet du déploiement sur le BlogDuWebdesign. 
+  Réparons au 
+plus vite cette erreur !
+
+"Déployer" une application, késako ?
+
+Déployer une application ou un site web signifie appliquer
+ un procédé permettant d'installer ou mettre à jour le site web sur
+ un environnement donné.
+
+ Prenons un exemple pratique qui devrait parler à tout le monde : 
+ Vous avez à développer un site web, mais le client n'a pas encore
+  son hébergement. 
+ Le développement va donc se faire sur votre machine locale sous
+  Windows pour le développement, puis sera transféré par FTP sur un
+   serveur que vous possédez pour pouvoir tester le site "en condition 
+   réelles", et permettre au client de le tester pour ses derniers retours. 
+   Enfin, après validation, tout le dossier sera copie collé sur l’hébergement
+    du client pour la mise en production.
+
+Dans cet exemple, l’environnement de développement est votre machine 
+locale, l’environnement de test votre serveur, et l’environnement de 
+production l’hébergement du client.
